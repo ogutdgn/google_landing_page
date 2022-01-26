@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+.right button:hover{
+    cursor: pointer;
+}
+.left li{
+    margin-top: 5px;
+}
+.right li{
+    margin-right: 20px;
+}
+.left li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #111
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li img:hover{
+    border: 1px solid black;
+    border-radius: 200px;
+    box-shadow: 0 0 5px gainsboro;
+}
+nav ul button{
+    background-color: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: white;
+    /* font-size: 14px; */
+    font-weight: 700;
+}
+.search-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+.search-panel input{
+    height: 40px;
+    width: 450px;
+    border: none;
+    outline: none;
+}
+.search-panel input:hover{
+    outline: none;
+}
+.search-section > img{
+    margin-bottom: 40px;
+}
+.search-panel{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    width: 560px;
+    height: 44px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+.search-panel img{
+    margin: 0 20px;
+    padding-top: 10px;
+}
+img:hover{
+    cursor: pointer;
+}
+.search-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 53px;
+}
+
+.search-buttons input{
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    padding: 0 20px;
+    margin: 0 4px;
+}
+.search-buttons input:hover{
+    cursor: pointer;
+}
+footer{
+    height: 50px;
+    padding-top: 15px;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100vh;
+    bottom: 0;
+    width: 100%;
+}
+.footer-left li{
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+}
+.footer-right li{
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+}
